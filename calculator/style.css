@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 4px 4px rgb(62, 47, 147);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(125, 106, 88);
+}
+.calculator{
+    height: 66vh;
+    width: 330px;
+    border: 3px solid rgb(230, 233, 236);
+    border-radius: 5px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.heading{
+    background-color: rgb(36, 42, 37);
+   color: white;
+    width: 320px;
+    letter-spacing: 4px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+}
+#equal{
+    width: 137px;
+ height: 50px;
+}
+input{
+    width: 325px;
+    height: 50px;
+    font-size: 34px;
+    border: none;
+    color: rgb(28, 12, 0);
+    box-shadow: 0px 6px 3px 0.1px rgb(240, 236, 236);
+    background-color: rgb(207, 196, 189);
+    margin-top: 1px;
+    border: 3px solid white;
+}
+
+
+.btn{
+    text-align: center;
+    padding: 12px;
+    letter-spacing: 15px;
+}
+.btn input{
+    width: 60px;
+    height: 50px;
+    background-color: rgb(21, 20, 20);
+    text-shadow: 2px 2px 4px 4px rgb(13, 12, 18);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+   border-top-left-radius: 12px;
+   border-bottom-right-radius: 12px;
+   border-top-right-radius: 5px;
+    font-size: 33px;
+    align-items: center;
+    box-shadow: 0.8px 0.8px 19px 2px rgb(90, 85, 85);
+}
+.btn input:hover{
+    background-color: rgb(243, 134, 0);
+   color: black;
+}
+.display{
+ box-shadow: 0.8px 0.8px 9px 2px rgb(204, 190, 190);
+}
